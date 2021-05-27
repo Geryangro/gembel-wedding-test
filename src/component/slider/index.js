@@ -11,33 +11,6 @@ import image6 from "../../image/image6.jpg"
 import image7 from "../../image/image7.jpg"
 import image8 from "../../image/image8.jpg"
 
-function SampleNextArrow(props) {
-    const { onClick, index } = props;
-    console.log(index)
-    return (
-        <div>
-            <button onClick={onClick}
-            className="custom-arrow"
-            >
-            {index === 1 ? 'Lanjut' : 'Selesai'}
-            </button>
-        </div>
-    );
-}
-
-function SamplePrevArrow(props) {
-    const { onClick, index } = props;
-    return (
-        <div className="d-desktop">
-            <button onClick={onClick}
-            className="custom-arrow"
-            >
-            {index === 1 ? 'Lanjut' : 'Selesai'}
-            </button>
-        </div>
-    );
-}
-
 export default class SliderCourosel extends Component {
     state = { index: 0 };
     next = () => {
@@ -50,7 +23,7 @@ export default class SliderCourosel extends Component {
         this.setState({ index: next });
     };
     textButton = (index) => {
-        let text = 'mulai'
+        let text = 'mulai'      
         switch (index) {
             case 0:
                 text = "Mulai";

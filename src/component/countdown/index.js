@@ -29,7 +29,7 @@ function Countdown() {
             }
         }, 1000);
         return () => clearInterval(interval);
-      }, []);
+      }, [finalDate]);
 
     return (
         <div>
