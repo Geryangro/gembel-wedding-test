@@ -16,20 +16,12 @@ code {
     monospace;
 }
 
-@font-face {font-family: "DidoteTextW01-Italic";
-  src: url("http://db.onlinewebfonts.com/t/16efa2896f117dae2debeb23ab4715dd.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/16efa2896f117dae2debeb23ab4715dd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("http://db.onlinewebfonts.com/t/16efa2896f117dae2debeb23ab4715dd.woff2") format("woff2"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/16efa2896f117dae2debeb23ab4715dd.woff") format("woff"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/16efa2896f117dae2debeb23ab4715dd.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-  url("http://db.onlinewebfonts.com/t/16efa2896f117dae2debeb23ab4715dd.svg#DidoteTextW01-Italic") format("svg"); /* iOS 4.1- */
+@font-face {
+  font-family: "DidotItalic";
+  src: local('DidotItalic'), url(./fonts/DidotItalic.ttf) format('truetype');
 }
 
-@font-face {font-family: "BrandonGrotW01-Light";
-  src: url("http://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("http://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff2") format("woff2"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff") format("woff"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-  url("http://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.svg#BrandonGrotW01-Light") format("svg"); /* iOS 4.1- */
+@font-face {
+  font-family: "Brandon";
+  src: local('Brandon'), url(./fonts/Brandon.ttf) format('truetype');
 }
