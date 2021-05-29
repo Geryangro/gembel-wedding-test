@@ -2,6 +2,16 @@
   overflow: hidden;
 }
 
+button {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -25,6 +35,7 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.1);
   transition: 0s linear;
   transition-property: background-position;
   height: 964px;
@@ -74,7 +85,6 @@
 .content-section {
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 100%;
   display: flex;
@@ -83,7 +93,7 @@
   padding: 0;
 }
 
-.content-video {
+/* .content-video {
   position: absolute;
   top: 0;
   color:#f1f1f1;
@@ -94,7 +104,7 @@
   justify-content: center;
   align-items: center;
   padding: 0;
-}
+} */
 
 .section-event {
   margin: auto;
@@ -197,7 +207,7 @@
 }
 
 .img-sect1 {
-  left: -230px;
+  right: 170px;
 }
 
 .flower1 {
@@ -206,8 +216,8 @@
 }
 
 .img-sect2 {
-  right: -24px;
-  bottom: -45px;
+  bottom: -70px;
+  left: 100px;
 }
 
 .card-count {
@@ -250,10 +260,12 @@
   height: 340px;
   background-color: #fff;
   padding: 20px 40px;
+  margin-bottom: 60px;
+  width: 800px;
 }
 
 .slide-photo {
-  background-color: #f8f0f6;
+  background: #f3f0f1;
   color: #fff;
 }
 
@@ -265,7 +277,74 @@
   display: none;
 }
 
+.btn-song {
+  background-color: transparent;
+  color: #000;
+  border-radius: 20px;
+  border: 2px solid #000;
+  height: 35px;
+  line-height: 35px;
+  padding: 25px 20px;
+  width: 400px;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-song > h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn-song-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.btn-location {
+  width: 300px;
+  background-color: #bad8e1;
+  border: none;
+  height: 60px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.card-story {
+  bottom: 0px;
+  padding: 10px 12px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 120px;
+  width: 350px;
+  margin: 0px auto;
+  right: 0px;
+  left: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.slider-image-card {
+  width: 350px;
+}
+
+.card-slider {
+  margin: 8px 4px;
+  color: #000;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-slider > img { 
+  border-radius: 20px;
+  margin: auto;
+}
+
+
 @media screen and (max-width: 600px) {
+  .slider-image-card {
+    width: 100%;
+  }
+
   .background-image {
     width: 100%;
     height: 100vh;
@@ -330,6 +409,7 @@
   .card-calender {
     height: 100%;
     margin-bottom: 60px;
+    width: 100%;
   }
 
   .gmap_canvas {
@@ -384,6 +464,7 @@
 
   .img-sect1 {
     left: 0px;
+    right: 0px;
   }
 
   .img-sect2 {
@@ -418,9 +499,13 @@
 
   .custom-arrow {
     width: 100%;
-    background-color: #fff;
+    background: #f3f0f1;
     border-radius: 20px;
-    color: #000;
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+        6px 6px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-weight: bold;
     height: 60px;
     outline: none;
     -webkit-tap-highlight-color: transparent;
@@ -435,5 +520,10 @@
     padding: 10px 12px;
     background-color: rgba(0, 0, 0, 0.3);
     height: 120px;
+    width: 100%;
+  }
+
+  .btn-song {
+    width: 100%;
   }
 }

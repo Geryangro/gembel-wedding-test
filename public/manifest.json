@@ -1,25 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Wedding Invitation",
+  "name": "Wedding Invitation Arbi Wirajaya & Widya Putri Warapsari",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "bird.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo1.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "logo51.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#A8C1CC",
+  "theme_color": "#A8C1CC",
+  "description": "Undangan pernikahan Arbi Wirajaya Anak dari Bpk Grisnaldi & Ibu Indah Madusari dan Widya Putri Warapsari Anak dari Bpk Endang Juhanda & Ibu Yulia Novianti, Di Daerah Perumahan Beji Permai, JL. Delima II, Blok K no 5. Tanah Baru, Beji, Depok, Sabtu 5 Juni 2021"
 }
