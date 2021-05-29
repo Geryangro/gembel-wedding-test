@@ -339,6 +339,9 @@ button:focus {
   margin: auto;
 }
 
+.footer {
+  font-size: 11px;
+}
 
 @media screen and (max-width: 600px) {
   .slider-image-card {

@@ -14,6 +14,7 @@ import calendar from "./image/calendar.png"
 import clock from "./image/clock.png"
 import playIcon from "./image/play.png"
 import pauseIcon from "./image/pause.png"
+import IconIg from "./image/ig.png"
 
 function App() {
   const urlSong = "https://res.cloudinary.com/geryangro/video/upload/v1622304430/Payung_Teduh_-_AKAD_Saxophone_Cover_Smooth_Jazz_version_by_Prastowoadhin_mp3cut.net_zupvbw.mp3"
@@ -159,7 +160,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="slide-photo">
+      <div className="slide-photo py-6">
         <div className="container mx-auto p-6">
           <h3 className="text-center text-didote text-name text-black">Our Story</h3>
           <SliderCourosel />
@@ -169,7 +170,7 @@ function App() {
         <Message />
       </div> */}
       <div className="intro-invitation">
-        <div className="container mx-auto">
+        <div className="container mx-auto pb-8">
           <div className="flex justify-between relative">
             <div className="pl-4 md:pl-40 py-12 text-center relative z-10">
               <img src={arbypict} alt="arby1" className="rounded-2xl image-side m-auto shadow-lg" />
@@ -201,6 +202,9 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="footer text-center bg-white p-2 text-brandon">
+        created : geryangro@gmail.com
       </div>
     </div>
   );
