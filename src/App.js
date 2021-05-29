@@ -14,7 +14,6 @@ import calendar from "./image/calendar.png"
 import clock from "./image/clock.png"
 import playIcon from "./image/play.png"
 import pauseIcon from "./image/pause.png"
-import IconIg from "./image/ig.png"
 
 function App() {
   const urlSong = "https://res.cloudinary.com/geryangro/video/upload/v1622304430/Payung_Teduh_-_AKAD_Saxophone_Cover_Smooth_Jazz_version_by_Prastowoadhin_mp3cut.net_zupvbw.mp3"
