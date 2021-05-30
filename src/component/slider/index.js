@@ -179,7 +179,7 @@ export default class SliderCourosel extends Component {
                     <div className="absolute z-10 card-story">
                         <p className="text-white text-didote">
                             Dan sekarang aku bertanya. 
-                            Maukah kamu menikah dengan ku, Widya hari saputri?
+                            Maukah kamu menikah dengan ku, Widya Putri Warapsari?
                         </p>
                     </div>
                 </div>
